@@ -1,4 +1,4 @@
-The example shows how to make simple layout using Spring boot and Freemarker
+The example shows how to make simple layout using Spring boot and Freemarker, sass
 
 
 - Hot deploy sass files in development environment:
