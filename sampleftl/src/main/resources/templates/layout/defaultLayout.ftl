@@ -4,6 +4,7 @@
       <title>
         ${title}
       </title>
+      <link href="../../css/style.css" rel="stylesheet">
     </head>
     <body style="width:100%;height:100%">
       <table border="1" cellspacing="0" cellpadding="0" style="width:100%;height:100%">

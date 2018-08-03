@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Hello ${name}!</title>
-    <link href="/css/main.css" rel="stylesheet">
+    <link href="../../css/style.css" rel="stylesheet">
 </head>
 <body>
     <h2 class="hello-title">Hello ${name}!</h2>
