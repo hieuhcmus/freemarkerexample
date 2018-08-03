@@ -43,6 +43,11 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+        </dependency>
     </dependencies>
 
     <build>
@@ -71,11 +76,14 @@
                         <goals>
                             <goal>update-stylesheets</goal>
                         </goals>
-                        <configuration>
-                            <destination>src/main/resources/static/css</destination>
-                        </configuration>
                     </execution>
                 </executions>
+                <configuration>
+                    <destination>${project.build.outputDirectory}/static/css</destination>
+                    <sassOptions>
+                        <always_update>true</always_update>
+                    </sassOptions>
+                </configuration>
             </plugin>
         </plugins>
     </build>
